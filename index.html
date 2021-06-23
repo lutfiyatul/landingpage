@@ -37,28 +37,12 @@
           <!-- Hero Btn First -->
           <a data-scroll href="#about-us">Selengkapnya</a>
           <!-- Hero Btn Second -->
-          <a data-scroll href="#contact-us">Hubungi Kami</a>
+          <!-- <a data-scroll href="#contact-us">Hubungi Kami</a> -->
         </div>
       </div>
     </div>
   </header>
   <!-- SERVICES SECTION -->  
-  <section class="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-lg-6">
-          <img src="images/question.png" alt="">
-        </div>
-        <div class="col-12 col-sm-12 col-lg-6">
-          <h4>Anda praktisi HR atau Learning & Development?</h4>
-          <h4>Apakah program pelatihan di perusahaan kurang memberikan dampak yang signifikan?</h4>
-          <h4>Selama ini Anda kesulitan / bahkan tidak tahu cara melakukan TNA dengan benar?</h4>
-          <!-- Replace About Us Text Under -->
-          <!-- <p>Dapatkan jasa Training Needs Analysis dengan harga 15-50 juta rupiah, tergantung dari skala perusahaan. Namun bagi 5 pendaftar pertama di bulan Juni 2021 ini akan mendapatkan jasa Training Needs Analysis ini secara GRATIS. </p> -->
-        </div>
-      </div>
-    </div>
-  </section>
   <section id="about-us" class="services">
     <div class="container-fluid">
       <div class="side-img"> 
@@ -72,25 +56,31 @@
           <div class="col-12 col-sm-12 col-lg-4 service-txt">
             <h2>Apapun yang anda butuhkan, kami siap melayani</h2>
             <div class="hero-btns service-btn">
-              <a data-scroll href="#contact-us">Hubungi Kami</a>
+              <!-- <a data-scroll href="#contact-us">Hubungi Kami</a> -->
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="service-box">
               <img src="images/service-icon1.svg" alt="">
               <!-- Service Title -->
-              <h3>Training Needs<br>Analysis</h3>
+              <!-- <h3>Cari tahu akar permasalahanmu</h3> -->
               <!-- Replace Patch to Image Under -->
               <p>Cari tahu akar dari permasalahan yang ada di tubuh perusahaan anda dan training apa saja yang paling tepat untuk menyelesaikan permasalahan tersebut</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Selengkapnya
+              </button>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="service-box">
               <img src="images/service-icon2.svg" alt="">
               <!-- Service Title -->
-              <h3>Management <br>Training</h3>
+              <!-- <h3>Tingkatkan</h3> -->
               <!-- Service Info -->
               <p>Tingkatkan kemampuan managerial anda melalui workshop pelatihan dan training kepemimpinan, communication skill, dan pelatihan penting lainnya </p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                Selengkapnya
+              </button>
             </div>
           </div>
         </div>
@@ -109,40 +99,15 @@
           <h2>Khusus Juni 2021</h2>
           <!-- Replace About Us Text Under -->
           <p>Dapatkan jasa Training Needs Analysis dengan harga 15-50 juta rupiah, tergantung dari skala perusahaan. Namun bagi 5 pendaftar pertama di bulan Juni 2021 ini akan mendapatkan jasa Training Needs Analysis ini secara GRATIS. </p>
+          <button type="button" class="hero-btns service-btn btn btn-danger" data-toggle="modal" data-target="#subscribe">
+            Saya Tertarik
+          </button>
+
         </div>
       </div>
     </div>
   </section>
-  <!-- CONTACT SECTION -->
-  <section id="contact-us" class="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h5>Kontak Kami</h5>
-          <h2>Hubungi Kami di</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-lg-6 email">
-          <input placeholder="Your email" type="email" id="email" pattern=".+@globex.com" size="30" required>
-        </div>
-        <div class="col-12 col-lg-6 email">
-          <input placeholder="Subject" type="subject" id="subject" size="30" required>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 message">
-          <textarea id="message" name="message" rows="5" cols="1">Message here...</textarea>
-        </div>
-        <div class="col-12">
-          <div class="hero-btns contact-btn">
-            <!-- Send Message Btn -->
-            <a href="#">Send Message</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
   <!-- FOOTER SECTION -->
   <footer>
     <div class="container">
@@ -165,6 +130,68 @@
       </div>
     </div>
   </footer>
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Apa Manfaat dari Training Needs Analysis?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>•Anda praktisi HR atau Learning & Development?<br>•Apakah program pelatihan di perusahaan kurang memberikan dampak yang signifikan?<br>•Selama ini Anda kesulitan / bahkan tidak tahu cara melakukan TNA dengan benar?</p>
+        <p>Training Needs Analysis adalah kunci dari keberhasilan training di perusahaan Anda. Apabila Andamelakukan analisa dengan tepat, maka solusi yang dilakukan pun menjadi akurat dan efektif. Namun apabila TNA tidak dilakukan dengan tepat, apalagi tidak dilakukan sama sekali, maka itu beresiko menjadi pemborosan yang luar biasa.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Apa Manfaat dari Training Needs Analysis?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Dengan Training Needs Analysis yang tepat, Anda akan dapat:<br>•Menemukan letak masalah dan akar permasalahannya<br>•Menemukan solusi yang lebih efektif dan efisien<br>•Dampak perubahan terhadap training akan lebih terasa karena tepat sasaran</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade " id="subscribe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Dapatkan Info</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
